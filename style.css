@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/*common*/
+body {
+  margin: 0;
+  font-family;'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: normal;
+  padding: 8px;
+}
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+nav {
+ margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ img {
+margin: 0;
+vertical-align: bottom;
+width: 100%;
+height: auto;
+}
+
+
+
+
+/*header*/
+.midasi {
+  background: #666;
+  width: 100%;
+}
+
+.midasi ul {
+  display: flex;
+ 
+}
+.midasi ul li {
+list-style: none;
+padding: 8px 16px;
+}
+
+/*main*/
+.main-img  {
+  text-align: center;
+}
+.main-img li {
+  list-style: none;
+  padding: 8px 16px;
+  margin-top: 16px;
+}
+.main-img a {
+  color: #777;
+  font-weight: bold;
+  border-bottom: 2px solid #777;
+  font-size: 14px;
+}
+@media (min-width:700px) {
+ .main-img ul{
+  display: flex;
+ }
+}
+/*images*/
+.images {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.images h2 {
+text-align: left;
+padding-top: 16px;
+font-weight: bold;
+font-size: 22px;
+}
+.images small {
+  color: #777;
+}
+.images a {
+  color: #777;
+  font-weight: bold;
+  border-bottom: 2px solid #777;
+  font-size: 14px;
+}
+.images div {
+  padding: 8px 16px;
+  margin-top: 16px; 
+}
+
+/*profile*/
+.profile {
+  text-align: center;
+  margin: 64px;
+}
+.profile h2 {
+font-size: 16px;
+font-weight: bold;
+margin-top: 32px;
+}
+.profile p {
+font-size: 14px;
+text-align: left;
+padding: 0;
+}
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+  max-width: auto;
+}
+/*fotos*/
+.fotos {
+  text-align: center;
+}
+.fotos h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.fotos img {
+  padding: 8px 16px;
+  margin-top: 16px; 
+}
+/*archive*/
+.archive {
+  text-align: center;
+}
+.archive h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 32px;
+}
+.archive ul {
+text-align: left;
+}
+.archive li {
+  list-style: none;
+  padding: 16px;
+  border-top: 1px solid #666;
+  font-size: 14px;
+}
+@media (min-width:700px) {
+main {
+  display: flex;
+}
+.right {
+  width: 300px;
+}
+}
+/*about*/
+.about {
+  background: #f5f5f5;
+}
+.about h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+.about a {
+  color: #777;
+}
+.about p {
+padding-left: 8px;
+font-size: 14px;
+}
+.about ul {
+  list-style: none;
+  text-align: left;
+}
